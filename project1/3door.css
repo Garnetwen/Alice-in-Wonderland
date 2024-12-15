@@ -1,0 +1,94 @@
+
+body{
+    font-family: Luminari, fantasy;
+    font-size: 24px;
+    background-color: #ffd11a;
+    background-size: cover;
+    /* background-image: url(checkerbox.jpg); */
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color:black
+}
+a:active{
+    text-decoration:none;
+    color:black
+}
+#a1{
+    position:fixed;
+    left:33%;
+    top:0%;
+    width:5%;
+    height:20%;
+    text-align:center;
+    vertical-align: middle;
+
+}
+#a2{
+    position: fixed;
+    left: 0%;
+    top:0%;
+    width:5%;
+    height:20%;
+    text-align:center;
+    vertical-align: middle;
+
+
+}
+#a3{
+    position: fixed;
+    left:66%;
+    top:0%;
+    width:5%;
+    height:20%;
+    text-align:center;
+    vertical-align: middle;
+
+}
+@keyframes visibility{
+    from{opacity: 0;}
+    to{opacity: 100;}
+
+    
+}
+.visibleworld{
+    padding: 150px;
+    opacity:0;
+    background: rgb(55, 156, 21);
+}
+
+.visibleworld:hover{
+    opacity: 100;
+    animation: visibility 2s ease-in;
+    animation-fill-mode: forwards;
+} 
+
+.text{
+    padding:1em;
+    /* vertical-align: middle; */
+    width: 50%;
+}
+#footer{
+    position:fixed;
+    bottom: 5px;
+    left:80%;
+    font-size:30px;
+    vertical-align: middle;
+
+    
+
+}
+#pic{
+    position: absolute; 
+    left: 450px; 
+    top: 500px;
+}
+

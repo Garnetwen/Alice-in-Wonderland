@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(238, 233, 186);
+}
+p{
+    font-family: "American Typewriter",serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 10px 5px;
+}
+a:link{
+    text-decoration:none;
+   
+    color:black;
+    border:3px solid black;
+    /* padding: 7px; */
+    padding: 10px 9px 10px;
+    
+    
+}
+a:visited{
+    text-decoration:black;
+    color:black;
+
+}
+a:hover{
+    text-decoration:black;
+    color:black;
+    border:3px solid red;
+
+    
+}
+img{
+    mix-blend-mode: multiply;
+    float:right;
+    margin-right:300px;
+    margin-top: 30px;
+    /* margin-bottom: px; */
+    clear: none;
+    
+}
+h1{
+    padding: 9px 100px 20px;
+}
+h2{
+    padding: 9px 40px 20px;
+    font-size: 30px;
+}
+.adventure3{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+.adventure1{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.adventure2{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.ending1{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.ending2{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.ending3{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+   
+}
+.ending4{
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.homePage{
+    margin-top: 80px;
+    margin-left: 80px;
+}

@@ -1,0 +1,19 @@
+#intro{text-decoration: none;
+    color: black;
+}
+h1{
+    padding: 100px 300px 10px;
+}
+p{
+    padding: 50px 20px 10px;
+    padding-left: 100px;
+    padding-right: 80px;
+    font-family: monospace;
+    font-size: 19px;
+}
+img{
+    padding-left: 100px;
+}
+body{
+    background-color: bisque;
+}
